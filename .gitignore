@@ -37,6 +37,7 @@ jspm_packages
 typings
 *.swp
 
+dist/
 built/
 common/lib/tool/
 common/src/tool/
