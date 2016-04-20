@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "dtsm install",
-    "clean": "rimraf bundle",
-    "prestart": "tsc && browserify -d -o built/bundle.js built/index.js",
-    "start": "browser-sync start --server --files bundle/*.js"
+    "clean": "rimraf dist",
+    "build": "sh build.sh"
   },
   "keywords": [],
   "author": "Quramy",
