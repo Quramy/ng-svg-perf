@@ -1,4 +1,4 @@
-import {Component, Input} from 'angular2/core';
+import {Component, Input} from '@angular/core';
 import {UserLink, User} from '../../../common/lib/user-link';
 import {ElapseHolder} from '../../../common/lib/elapse-holder';
 import * as d3 from 'd3';
